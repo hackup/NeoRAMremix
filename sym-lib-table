@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name NeoRAMremix-cache)(type Legacy)(uri ${KIPRJMOD}/NeoRAMremix-cache.lib)(options "")(descr ""))
+  (lib (name NeoRAMremix-rescue)(type Legacy)(uri ${KIPRJMOD}/NeoRAMremix-rescue.lib)(options "")(descr ""))
 )
