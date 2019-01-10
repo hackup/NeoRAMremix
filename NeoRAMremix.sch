@@ -5,12 +5,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "NeoRAM Remix"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Rev "1"
+Comp "hackup.net"
+Comment1 "Based on NeoRAM by N. Welte (2007) http://www.1541.de"
+Comment2 "For non-profit and personal use only!"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -355,11 +355,11 @@ Entry Wire Line
 Wire Wire Line
 	3800 1600 4100 1600
 Wire Wire Line
-	4100 1600 4100 3950
+	4100 1600 4100 3850
 Wire Wire Line
-	4100 3950 2150 3950
+	4100 3850 2150 3850
 Wire Wire Line
-	2150 3950 2150 5400
+	2150 3850 2150 5400
 Wire Wire Line
 	2150 5400 2550 5400
 Wire Wire Line
@@ -2058,6 +2058,35 @@ F 3 "~" H 7250 6300 50  0001 C CNN
 	1    7250 6300
 	1    0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5C47CB67
+P 3900 4000
+F 0 "SW1" H 3750 4100 50  0000 C CNN
+F 1 "Reset" H 3900 3900 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_Tactile_SPST_Angled_PTS645Vx83-2LFS" H 3900 4200 50  0001 C CNN
+F 3 "" H 3900 4200 50  0001 C CNN
+	1    3900 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 4000 4100 3850
+Connection ~ 4100 3850
+$Comp
+L power:GND #PWR0138
+U 1 1 5C4A1311
+P 3650 4050
+F 0 "#PWR0138" H 3650 3800 50  0001 C CNN
+F 1 "GND" H 3655 3877 50  0000 C CNN
+F 2 "" H 3650 4050 50  0001 C CNN
+F 3 "" H 3650 4050 50  0001 C CNN
+	1    3650 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4050 3650 4000
+Wire Wire Line
+	3650 4000 3700 4000
 Wire Bus Line
 	6150 2000 6150 3300
 Wire Bus Line
