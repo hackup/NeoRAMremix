@@ -1957,41 +1957,17 @@ Connection ~ 6150 3300
 Wire Bus Line
 	6150 3300 7850 3300
 Wire Wire Line
-	800  3400 900  3400
-Wire Wire Line
-	900  3400 900  3700
-Connection ~ 800  3400
-Connection ~ 900  3700
-Wire Wire Line
-	1300 3400 1400 3400
-Wire Wire Line
-	1400 3400 1400 3700
-Connection ~ 1300 3400
-Connection ~ 1400 3700
-Wire Wire Line
-	4250 5950 4550 5950
-Wire Wire Line
-	4550 5950 4550 6050
-Connection ~ 4250 5950
-Wire Wire Line
 	4700 6450 4650 6450
 Wire Wire Line
 	4650 6450 4650 6050
 Wire Wire Line
 	4650 6050 4550 6050
-Connection ~ 4550 6050
 Wire Wire Line
 	4700 6550 4650 6550
 Wire Wire Line
 	4650 6550 4650 6650
 Wire Wire Line
 	4650 6650 4550 6650
-Wire Wire Line
-	4250 6550 4550 6550
-Wire Wire Line
-	4550 6550 4550 6650
-Connection ~ 4250 6550
-Connection ~ 4550 6650
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5C83D545
