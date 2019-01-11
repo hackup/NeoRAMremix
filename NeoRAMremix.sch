@@ -1696,28 +1696,6 @@ F 3 "" H 4700 7350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4700 7050 4700 7350
-$Comp
-L NeoRAMremix-rescue:GS3-w_conn SJ3
-U 1 1 5C6A02C1
-P 4400 6050
-F 0 "SJ3" H 4400 6339 50  0000 C CNN
-F 1 "GS3" H 4400 6255 40  0000 C CNN
-F 2 "Connectors:GS3" H 4400 6050 50  0001 C CNN
-F 3 "" H 4400 6050 50  0001 C CNN
-	1    4400 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L NeoRAMremix-rescue:GS3-w_conn SJ4
-U 1 1 5C6A0422
-P 4400 6650
-F 0 "SJ4" H 4400 6939 50  0000 C CNN
-F 1 "GS3" H 4400 6855 40  0000 C CNN
-F 2 "Connectors:GS3" H 4400 6650 50  0001 C CNN
-F 3 "" H 4400 6650 50  0001 C CNN
-	1    4400 6650
-	1    0    0    -1  
-$EndComp
 NoConn ~ 3550 6950
 Wire Wire Line
 	3550 6750 3700 6750
@@ -1726,60 +1704,21 @@ Wire Wire Line
 Wire Wire Line
 	3700 6800 3950 6800
 Wire Wire Line
-	3950 6800 3950 5950
-Wire Wire Line
-	3950 5950 4250 5950
-Wire Wire Line
 	3550 6850 3650 6850
 Wire Wire Line
 	3650 6850 3650 6900
 Wire Wire Line
 	3650 6900 4050 6900
-Wire Wire Line
-	4050 6900 4050 6550
-Wire Wire Line
-	4050 6550 4250 6550
-Wire Wire Line
-	4250 6150 4200 6150
-Wire Wire Line
-	4200 6150 4200 6750
-Wire Wire Line
-	4200 6750 4250 6750
 $Comp
 L power:GND #PWR0133
 U 1 1 5C7915DA
-P 4200 6900
-F 0 "#PWR0133" H 4200 6650 50  0001 C CNN
-F 1 "GND" H 4205 6727 50  0000 C CNN
-F 2 "" H 4200 6900 50  0001 C CNN
-F 3 "" H 4200 6900 50  0001 C CNN
-	1    4200 6900
+P 4200 7000
+F 0 "#PWR0133" H 4200 6750 50  0001 C CNN
+F 1 "GND" H 4205 6827 50  0000 C CNN
+F 2 "" H 4200 7000 50  0001 C CNN
+F 3 "" H 4200 7000 50  0001 C CNN
+	1    4200 7000
 	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 6750 4200 6900
-Connection ~ 4200 6750
-$Comp
-L NeoRAMremix-rescue:GS3-w_conn SJ1
-U 1 1 5C7D2316
-P 1400 3550
-F 0 "SJ1" V 1400 3718 50  0000 L CNN
-F 1 "GS3" V 1446 3718 40  0001 L CNN
-F 2 "Connectors:GS3" H 1400 3550 50  0001 C CNN
-F 3 "" H 1400 3550 50  0001 C CNN
-	1    1400 3550
-	0    1    1    0   
-$EndComp
-$Comp
-L NeoRAMremix-rescue:GS3-w_conn SJ2
-U 1 1 5C7F2916
-P 900 3550
-F 0 "SJ2" V 900 3718 50  0000 L CNN
-F 1 "GS3" V 946 3718 40  0001 L CNN
-F 2 "Connectors:GS3" H 900 3550 50  0001 C CNN
-F 3 "" H 900 3550 50  0001 C CNN
-	1    900  3550
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	900  4700 850  4700
@@ -1787,10 +1726,6 @@ Wire Wire Line
 	900  4800 800  4800
 Wire Wire Line
 	800  4800 800  3850
-Wire Wire Line
-	800  3850 900  3850
-Wire Wire Line
-	900  3850 900  3700
 $Comp
 L device:CP C1
 U 1 1 5C8DF63B
@@ -1837,33 +1772,16 @@ D2
 Text Label 2300 3400 2    50   ~ 0
 D3
 Wire Wire Line
-	850  3900 1400 3900
-Wire Wire Line
-	1400 3900 1400 3700
-Wire Wire Line
 	850  3900 850  4700
 Wire Wire Line
 	1750 3250 1750 3300
-Wire Wire Line
-	1750 3300 1500 3300
-Wire Wire Line
-	1000 3300 1000 3400
-Wire Wire Line
-	1500 3400 1500 3300
-Connection ~ 1500 3300
-Wire Wire Line
-	1500 3300 1000 3300
 Wire Wire Line
 	1400 4300 1400 4200
 Wire Wire Line
 	1400 4200 1750 4200
 Wire Wire Line
-	1750 4200 1750 3300
+	1750 4200 1750 3550
 Connection ~ 1750 3300
-Wire Wire Line
-	800  3150 800  3400
-Wire Wire Line
-	1300 3150 1300 3400
 Text Label 6400 2100 2    50   ~ 0
 RA8
 Text Label 6400 2200 2    50   ~ 0
@@ -1962,12 +1880,6 @@ Wire Wire Line
 	4650 6450 4650 6050
 Wire Wire Line
 	4650 6050 4550 6050
-Wire Wire Line
-	4700 6550 4650 6550
-Wire Wire Line
-	4650 6550 4650 6650
-Wire Wire Line
-	4650 6650 4550 6650
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5C83D545
@@ -1990,7 +1902,7 @@ F 3 "" H 9950 6000 50  0001 C CNN
 	1    9950 6000
 	1    0    0    -1  
 $EndComp
-Text Label 1300 3150 0    50   ~ 0
+Text Label 1350 3150 0    50   ~ 0
 A6
 Text Label 800  3150 0    50   ~ 0
 A7
@@ -2063,6 +1975,87 @@ Wire Wire Line
 	3650 4050 3650 4000
 Wire Wire Line
 	3650 4000 3700 4000
+$Comp
+L Jumper:SolderJumper_3_Bridged12 SJ2
+U 1 1 5C5C59E5
+P 1000 3550
+F 0 "SJ2" H 1000 3664 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 1000 3664 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 1000 3550 50  0001 C CNN
+F 3 "~" H 1000 3550 50  0001 C CNN
+	1    1000 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  3550 800  3150
+Wire Wire Line
+	1000 3850 1000 3700
+Wire Wire Line
+	800  3850 1000 3850
+Wire Wire Line
+	1200 3550 1200 3300
+$Comp
+L Jumper:SolderJumper_3_Bridged12 SJ1
+U 1 1 5C62F605
+P 1550 3550
+F 0 "SJ1" H 1550 3664 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 1550 3664 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 1550 3550 50  0001 C CNN
+F 3 "~" H 1550 3550 50  0001 C CNN
+	1    1550 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 1750 3550
+Wire Wire Line
+	1750 3550 1750 3300
+Wire Wire Line
+	1200 3300 1750 3300
+Wire Wire Line
+	850  3900 1550 3900
+Wire Wire Line
+	1550 3900 1550 3700
+Wire Wire Line
+	1350 3550 1350 3150
+$Comp
+L Jumper:SolderJumper_3_Bridged12 SJ3
+U 1 1 5C6BABBB
+P 4400 6050
+F 0 "SJ3" V 4400 6118 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" H 4400 6164 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 4400 6050 50  0001 C CNN
+F 3 "~" H 4400 6050 50  0001 C CNN
+	1    4400 6050
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3950 5850 4400 5850
+Wire Wire Line
+	3950 5850 3950 6800
+$Comp
+L Jumper:SolderJumper_3_Bridged12 SJ4
+U 1 1 5C7687C6
+P 4400 6550
+F 0 "SJ4" V 4400 6618 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" H 4400 6664 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 4400 6550 50  0001 C CNN
+F 3 "~" H 4400 6550 50  0001 C CNN
+	1    4400 6550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4700 6550 4550 6550
+Wire Wire Line
+	4050 6350 4400 6350
+Wire Wire Line
+	4050 6350 4050 6900
+Wire Wire Line
+	4200 6750 4200 7000
+Wire Wire Line
+	4200 6750 4400 6750
+Wire Wire Line
+	4200 6750 4200 6250
+Wire Wire Line
+	4200 6250 4400 6250
 Wire Bus Line
 	6150 2000 6150 3300
 Wire Bus Line
@@ -2095,4 +2088,5 @@ Wire Bus Line
 	4050 950  4050 3500
 Wire Bus Line
 	2300 4300 2300 6850
+Connection ~ 4200 6750
 $EndSCHEMATC
