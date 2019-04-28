@@ -12,11 +12,12 @@
   (page A4)
   (title_block
     (title "NeoRAM Remix")
-    (date 2019-04-19)
+    (date 2019-04-28)
     (rev 2)
     (company hackup.net)
     (comment 1 "Based on NeoRAM by N. Welte (2007) http://www.1541.de")
-    (comment 2 "For non-profit and personal use only!")
+    (comment 2 "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.")
+    (comment 3 "This work is licensed under a")
   )
 
   (layers

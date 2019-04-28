@@ -1,17 +1,17 @@
 EESchema Schematic File Version 4
 LIBS:NeoRAMremix-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "NeoRAM Remix"
-Date ""
+Date "2019-04-28"
 Rev "1"
 Comp "hackup.net"
 Comment1 "Based on NeoRAM by N. Welte (2007) http://www.1541.de"
-Comment2 "For non-profit and personal use only!"
-Comment3 ""
+Comment2 "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
+Comment3 "This work is licensed under a"
 Comment4 ""
 $EndDescr
 $Comp
