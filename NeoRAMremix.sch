@@ -1979,7 +1979,7 @@ U 1 1 5C5C59E5
 P 1000 3550
 F 0 "SJ2" H 1000 3664 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 1000 3664 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 1000 3550 50  0001 C CNN
+F 2 "NeoRAMremix:SolderJumper-3_P1.3mm_Bridged12" H 1000 3550 50  0001 C CNN
 F 3 "~" H 1000 3550 50  0001 C CNN
 	1    1000 3550
 	1    0    0    -1  
@@ -1998,7 +1998,7 @@ U 1 1 5C62F605
 P 1550 3550
 F 0 "SJ1" H 1550 3664 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 1550 3664 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 1550 3550 50  0001 C CNN
+F 2 "NeoRAMremix:SolderJumper-3_P1.3mm_Bridged12" H 1550 3550 50  0001 C CNN
 F 3 "~" H 1550 3550 50  0001 C CNN
 	1    1550 3550
 	1    0    0    -1  
@@ -2020,7 +2020,7 @@ U 1 1 5C6BABBB
 P 4400 6050
 F 0 "SJ3" V 4400 6118 50  0000 L CNN
 F 1 "SolderJumper_3_Bridged12" H 4400 6164 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 4400 6050 50  0001 C CNN
+F 2 "NeoRAMremix:SolderJumper-3_P1.3mm_Bridged12" H 4400 6050 50  0001 C CNN
 F 3 "~" H 4400 6050 50  0001 C CNN
 	1    4400 6050
 	0    -1   1    0   
@@ -2035,7 +2035,7 @@ U 1 1 5C7687C6
 P 4400 6550
 F 0 "SJ4" V 4400 6618 50  0000 L CNN
 F 1 "SolderJumper_3_Bridged12" H 4400 6664 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 4400 6550 50  0001 C CNN
+F 2 "NeoRAMremix:SolderJumper-3_P1.3mm_Bridged12" H 4400 6550 50  0001 C CNN
 F 3 "~" H 4400 6550 50  0001 C CNN
 	1    4400 6550
 	0    -1   1    0   
