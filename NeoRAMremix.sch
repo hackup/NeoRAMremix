@@ -2058,12 +2058,12 @@ Connection ~ 4200 6750
 Wire Wire Line
 	10300 4000 10800 4000
 $Comp
-L device:Jumper_NO_Small JP1
+L device:Jumper_NO_Small SJ5
 U 1 1 5CD1924D
 P 10550 4700
-F 0 "JP1" H 10550 4885 50  0000 C CNN
+F 0 "SJ5" H 10550 4885 50  0000 C CNN
 F 1 "no_battery" H 10550 4794 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 10550 4700 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10550 4700 50  0001 C CNN
 F 3 "~" H 10550 4700 50  0001 C CNN
 	1    10550 4700
 	1    0    0    -1  
