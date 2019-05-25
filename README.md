@@ -4,8 +4,8 @@ The NeoRAM is a RAM extension for the Commodore 64/128 computers that is compati
 
 The "remix" version is based on the [original NeoRAM](http://www.x1541.de/) developed by Nicolas Welte in 2006. Without further consent, both the original and the remix version are licensed for personal and non-commercial use only (see details below). There is also no warranty whatsoever. **USE AT YOUR OWN RISK!**.
 
-![NeoRAM Remix Rev.2 Front](media/photo-neoram-remix-rev2-front.jpg)
-![NeoRAM Remix Rev.2 Back](media/photo-neoram-remix-rev2-back.jpg)
+![NeoRAM Remix Rev.2 Front](media/photo-neoram-remix-rev2-front.JPG)
+![NeoRAM Remix Rev.2 Back](media/photo-neoram-remix-rev2-back.JPG)
 
 ## Configurations
 
