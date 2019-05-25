@@ -11,7 +11,7 @@ The "remix" version is based on the [original NeoRAM](http://www.x1541.de/) deve
 
 The NeoRAM can be assembled in different configurations. By default, the PCB is configured for 2MB of RAM and battery buffering. There is no need to change any of the solder jumpers if the board is assembled completely.
 
-![Configuration Jumpers](media/photo-neoram-remix-rev2-jumper.JPG)
+![Configuration Jumpers](media/photo-neoram-remix-rev2-jumper.jpg)
 
 If you choose to fit fewer RAM chips their respective decoupling caps can be omitted as well. The solder jumpers SJ3 and SJ4 on the backside of the PCB have to be changed to reflect the memory configuration:
 
